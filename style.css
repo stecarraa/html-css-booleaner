@@ -1,0 +1,25 @@
+body{
+    box-sizing: border-box;
+  
+}
+
+header{
+    background: url('img/pattern.png');
+    background-color: aqua;
+    height: 100%;
+}
+
+#logo{
+    margin-top:5%;
+    width: 25%;
+}
+
+.titolo h1{
+    font-size: 50px;
+    margin-bottom: 0%;
+}
+
+.titolo span{
+    color: aqua;
+}
+
