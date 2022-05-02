@@ -9,6 +9,12 @@ header{
     height: 100%;
 }
 
+.immagini-testa{
+    min-width: max-content;
+    box-sizing: border-box;
+  
+}
+
 #logo{
     margin-top:5%;
     width: 25%;
@@ -23,6 +29,10 @@ header{
     color: rgb(0, 157, 255);
 }
 
+.paragrafo span{
+    background-color: lightyellow;
+}
+
 table {
     text-align: left;
     width: fit-content; 
@@ -32,14 +42,32 @@ table th{
     background-color: rgb(0, 94, 255);
     color: #FFFFFF;
 }
-
+/* colore righe tabella */
 .dispari{
 background-color: rgb(240, 251, 255);
 }
-
+/* colonna testo lungo tabella */
 .descrizione{
     width: 50%;
 }
 
+.quadrato{
+    width:208px;
+    height:160px;
+    margin: 10 0;
+    padding:10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+
+#monitor{
+    background-image: url(img/monitor.jpg);
+}
+
+#data{
+    background-image: url(img/graph.jpg);
+}
 
 
