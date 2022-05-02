@@ -10,9 +10,14 @@ header{
 }
 
 .immagini-testa{
+    margin-top: 15px;
     min-width: max-content;
     box-sizing: border-box;
   
+}
+#sottotitolo{
+    color: lightgray;
+    font-size: 12px;
 }
 
 #logo{
@@ -33,6 +38,7 @@ header{
     background-color: lightyellow;
 }
 
+
 table {
     text-align: left;
     width: fit-content; 
@@ -51,15 +57,22 @@ background-color: rgb(240, 251, 255);
     width: 50%;
 }
 
+footer h2{
+
+    font-size: 15px;
+    color: lightgray;
+}
+
 .quadrato{
+    text-align: left;
     width:208px;
     height:160px;
-    margin: 10 0;
+    margin: 10px;
     padding:10px;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-
+    margin-left: 0;
 }
 
 #monitor{
